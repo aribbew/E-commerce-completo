@@ -1,0 +1,151 @@
+:root{
+	--green-color: #9AE6B4;
+	--cream-color: #FEEBC8;
+	--white-color: white;
+	--black-color: black;
+	/*Espaciado*/
+	--space: 10px;
+	/* Tipografia */
+	--normal: 12px;
+	/* Box shadow */
+	--boxb: 0px 3px 6px #0000006B;
+	--boxB: 0px 3px 6px #00000085;
+}
+
+html body{
+	padding: 0px; 
+	margin: 0px;
+	font-size: var(--normal);
+	font-family: 'Oswald', sans-serif;
+}
+
+body{
+	background-color: #58B19F;
+}
+
+	/*NAV START*/
+
+.nav_section{
+	height: 500px;
+}
+
+nav{
+	display: flex;
+	background-color: var(--cream-color);
+	padding: var(--space);
+	justify-content: space-between;
+	align-items: center;
+	height: 43px;
+	margin-block-start: -500px;
+}
+
+.Logo img{
+	padding-left: 30px;
+}
+nav,ul{
+	display: flex;
+}
+nav,li{
+	padding-right: 25px; 
+	list-style: none;
+}
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover{
+	color: #58B19F;
+}
+
+	/*NAV END*/
+
+	/*MAIN SECTION START*/
+
+.image_tittle{
+	text-align: center;
+}
+
+.tittle_error{
+	text-align: center;
+	font-size: 30px;
+}
+
+.tittle_error h1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.tittle_error h6{
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+
+.tittle{
+	text-align: center;
+	font-size: 30px;
+}
+
+.tittle h1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.tittle h6{
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+
+	/*MAIN SECTION END*/
+
+	/*BACKGROUND IMAGE START*/
+
+.footer_background_section{
+	height: 345px;
+	margin-top: -198px;
+}
+
+.footer_background{
+	height: 0;
+}
+
+.background_image{
+	background-image: url(../images/footerbackground.png);
+	background-size: 310px;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+.background_image_2{
+	background-image: url(../images/footerbackground2.png);
+	background-size: 260px;
+	background-repeat: no-repeat;
+	height: 350px;
+	background-position-x: 100%;
+    position: relative;
+    top: -400px;
+}
+
+	/*BACKGROUND IMAGE END*/
+
+	/*FOOTER START*/
+
+.footer_section{
+	background-color: var(--cream-color);
+	padding: var(--space);
+	align-items: center;
+	height: 30px
+	position: sticky;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+.footer_text{
+	padding-left: 20px;
+}
+.footer_text_2{
+	padding-right: 20px;
+}
+
+	/*FOOTER END*/
